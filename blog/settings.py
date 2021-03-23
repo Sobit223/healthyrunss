@@ -24,9 +24,7 @@ SECRET_KEY = '4rvjnnlw%*rt-e*45+!t$%62+#nux84%dw9*$z)zwe02m_+*q0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-server.listen(port,()=>{  // do not add localhost here if you are deploying it
-    console.log("server listening to port "+port);
-});
+
 ALLOWED_HOSTS = [ '.herokuapp.com']
 
 
